@@ -7,7 +7,7 @@ import {Grid, Paper} from "@mui/material";
 export default function MainPage() {
 
     return (
-        <div>
+        <div className={"custom-primary-color"}>
             <Navigation/>
             <Landpage/>
             <div className={"mx-auto max-w-[1700px]"}>
